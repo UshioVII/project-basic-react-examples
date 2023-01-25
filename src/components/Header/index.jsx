@@ -18,7 +18,7 @@ export const Header = () => {
                 Show / Hide Message
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/stopwatchTimer">
                 Stopwatch / Timmer
               </NavDropdown.Item>
               <NavDropdown.Divider />
@@ -37,6 +37,10 @@ export const Header = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/">
                 Show | Hide Message
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item as={Link} to="/practice/stopwatchTimerFakePractice">
+                Stopwatch | Timmer Fake
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/">
